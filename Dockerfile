@@ -1,5 +1,5 @@
 # Use an existing node image as base image
-FROM node:14-alpine
+FROM node:nginx:1.16.1
 
 # Set the working directory in the container
 WORKDIR /app
